@@ -6,6 +6,7 @@ mod primitive;
 mod slice;
 mod tuple;
 mod unit;
+mod heapless_vec;
 
 #[cfg(feature = "alloc")]
 mod vec;

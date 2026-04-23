@@ -33,6 +33,7 @@ bitvec = { version = "1.0.1", default-features = false, optional = true }
 log = { version = "0.4.28", optional = true }
 no_std_io = { version = "0.9.1", default-features = false, package = "no_std_io2" }
 rustversion = "1.0.22"
+heapless = "0.9.1"
 
 [dev-dependencies]
 rstest = "0.26.1"
